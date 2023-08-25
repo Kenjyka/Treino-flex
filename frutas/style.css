@@ -15,10 +15,11 @@ main {
 section {
     height: 300px;
     width: 200px;
-    box-shadow: 0 0 1px 2px black;
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.575);
 }
 section img {
    width: 200px; 
+   height: 150px;
    object-fit: fill;
    overflow: hidden;
    border-radius: 20px 20px 0 0px;
@@ -34,14 +35,18 @@ section img {
 .botao {
     background-color: blue;
     color: #fff;
-    padding: 5px;
-    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
 }
 h2 {
     margin: 10px;
+    font-size: 20px;
 }
 small {
-    color: rgba(0, 0, 0, 0.712);
+    color: rgba(0, 0, 0, 0.37);
 }
 
 span {
