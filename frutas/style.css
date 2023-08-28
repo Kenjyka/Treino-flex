@@ -15,10 +15,12 @@ main {
 section {
     height: 300px;
     width: 200px;
-    box-shadow: 0 0 1px 2px black;
+    box-shadow: 2px 2px 5px 0px #0000008f;
+    box-sizing: border-box;
 }
 section img {
    width: 200px; 
+   height: 150px;
    object-fit: fill;
    overflow: hidden;
    border-radius: 20px 20px 0 0px;
@@ -32,16 +34,24 @@ section img {
     margin: 20px;
 }   
 .botao {
-    background-color: blue;
+    background-color: rgb(0, 162, 255);
     color: #fff;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
 }
 h2 {
     margin: 10px;
+    font-size: 20px;
 }
 small {
-    color: rgba(0, 0, 0, 0.712);
+    margin-bottom: 5%;
+    color: rgba(0, 0, 0, 0.432);
 }
 
 span {
